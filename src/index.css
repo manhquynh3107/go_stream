@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @media only screen and (max-width: 768px) 
+{
+    #logo a{
+        background-image: url('/public/images/logo4.png') !important;
+    }
+} */
+#logo
+{
+  /* background-image: url('public/images/logo-live.png'); */
+  background-size: contain;
+}
+#logo2
+{
+  /* background-image: url('/public/images/logo-live06.png'); */
+  background-size: contain;
+}
+
+.item-post .img-post img {
+  width: 100%;
+}
+.modal-popup-policy {
+  color: #000;
+  font-size: 18px;
+}
+.modal-popup-policy a {
+  color: #409EFF;
+}
+.btn-accept {
+  background: #2ec4ff;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+.btn-accept:hover {
+  color: #fff;
+}
+.btn-accept:active,
+.btn-accept:focus {
+  outline: none;
+}
+
